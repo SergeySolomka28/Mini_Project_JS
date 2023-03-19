@@ -1,0 +1,36 @@
+body {
+    background: url("backgraund/fon1.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    background-attachment: fixed;
+
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.wrapUser {
+    margin: 0 auto;
+    background: rgba(252, 252, 252, 0.25);
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 15px;
+
+
+}
+
+.wrapUser:hover {
+    background: rgba(47, 200, 220, 0.59);
+
+}
+
+.userInfo {
+    text-shadow: rgba(30, 14, 255, 0.67) 1px 0 10px;
+
+    color: white;
+
+}

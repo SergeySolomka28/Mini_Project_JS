@@ -21,7 +21,7 @@
 //     post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.
 //     Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)
 
-let arrObject = fetch('https://jsonplaceholder.typicode.com/users')
+let object = fetch('https://jsonplaceholder.typicode.com/users')
     .then(object => object.json())
     .then(object => {
         console.log(object);
@@ -30,15 +30,14 @@ let arrObject = fetch('https://jsonplaceholder.typicode.com/users')
             objectWrap.classList.add('objectWrap')
             let id = document.createElement('h2')
             let name = document.createElement('h2')
-            id.innerText = ` Id: ${ objectElement.id}`
-            name.innerText = `Name: ${objectElement.name}`
-            let but1= document.createElement("button")
-            let a =document.createElement('a')
+            id.innerText = ` ID: ${objectElement.id}`
+            name.innerText = `NAME: ${objectElement.name}`
+            let but1 = document.createElement("button")
+            let a = document.createElement('a')
             but1.classList.add('but1')
-            a.innerText='User Details'
-            a.href='user-details.html?data='+JSON.stringify(objectElement)
+            a.innerText = 'USER DETAILS'
+            a.href = 'user-details.html?id=' + objectElement.id
             but1.appendChild(a)
-
             objectWrap.append(id, name, but1);
             let wrap = document.getElementById('wrap');
             wrap.append(objectWrap);
@@ -46,7 +45,5 @@ let arrObject = fetch('https://jsonplaceholder.typicode.com/users')
         }
 
     })
-
-
 
 

@@ -1,0 +1,86 @@
+.display {
+    display: none;
+}
+
+body {
+    background: url("backgraund/fon1.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    background-attachment: fixed;
+}
+
+.boxH3 {
+    color: yellow;
+    width: fit-content;
+    font-size: 25px;
+
+}
+
+li {
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+    text-shadow: #FC0 1px 0 10px;
+
+
+}
+
+.butDiv {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.but2 {
+    width: 95%;
+    height: 50px;
+    font-size: 25px;
+}
+
+.but2:hover{
+    background: rgba(47, 200, 220, 0.59);
+}
+.titleWrap {
+    justify-content: center;
+    row-gap: 7px;
+    column-gap: 7px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.titlePost {
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: #FC0 1px 0 10px;
+    font-size: 20px;
+    width: 17%;
+    height: 200px;
+    background: rgba(252, 252, 252, 0.25);
+
+}
+
+.titlePost:hover {
+    background: rgba(47, 200, 220, 0.59);
+    height: 210px;
+
+}
+.wrap{
+    margin: 0 auto ;
+    width: 90%;
+}

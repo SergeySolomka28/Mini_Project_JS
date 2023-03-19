@@ -2,7 +2,9 @@ body {
     background: url("backgraund/fon1.jpg");
     background-size: cover;
     font-family: sans-serif;
+    background-attachment: fixed;
 }
+
 
 #wrap {
     width: 900px;
@@ -20,7 +22,6 @@ body {
     width: 400px;
     height: 200px;
     display: flex;
-    border: black 2px solid;
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -32,11 +33,21 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+    text-shadow: #FC0 1px 0 10px;
+}
+
 h2 {
     margin: 3px
 }
 
+.but1:hover {
+    background: rgba(47, 200, 220, 0.59);
+}
+
 .but1 {
+    border: none;
     width: 50%;
     height: 35px;
     border-radius: 20px;
