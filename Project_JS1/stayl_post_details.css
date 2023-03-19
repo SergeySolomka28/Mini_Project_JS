@@ -6,19 +6,23 @@ body {
 
 }
 .wrap{
+
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     row-gap: 10px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+
 }
 .wrapUser {
     margin: 0 auto;
     background: rgba(252, 252, 252, 0.25);
-    width: 900px;
+    width: 20%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     border-radius: 20px;
     padding: 15px;
+    word-wrap: break-word;
 
 
 }
@@ -30,7 +34,6 @@ body {
 
 .userInfo {
     text-shadow: rgba(30, 14, 255, 0.67) 1px 0 10px;
-
     color: white;
 
 }

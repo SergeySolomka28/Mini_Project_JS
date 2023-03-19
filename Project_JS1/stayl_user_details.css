@@ -21,13 +21,11 @@ li {
     color: white;
     font-size: 20px;
     text-shadow: #FC0 1px 0 10px;
-
-
 }
 
 .butDiv {
 
-    margin-top: 20px;
+    margin-top: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,9 +39,10 @@ li {
     font-size: 25px;
 }
 
-.but2:hover{
+.but2:hover {
     background: rgba(47, 200, 220, 0.59);
 }
+
 .titleWrap {
     justify-content: center;
     row-gap: 7px;
@@ -72,15 +71,18 @@ a {
     width: 17%;
     height: 200px;
     background: rgba(252, 252, 252, 0.25);
+    word-wrap: break-word;
 
 }
 
 .titlePost:hover {
     background: rgba(47, 200, 220, 0.59);
-    height: 210px;
+    font-size: 30px;
 
 }
-.wrap{
-    margin: 0 auto ;
+
+.wrap {
+    position: relative;
+    margin: 0 auto;
     width: 90%;
 }
